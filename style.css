@@ -1,0 +1,87 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: linear-gradient(135deg, #333, #111);
+     color: #fff;
+ }
+
+ .container {
+     width: 500px;
+     background: rgba(255, 255, 255, 0.1);
+     height: 600px;
+     padding: 40px;
+     border-radius: 20px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+ }
+
+ .box {
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     height: 700px;
+ }
+
+ .searchbar {
+     padding: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     width: 95%;
+     height: 50px;
+     align-items: center;
+     background-color: rgb(196, 243, 245);
+     border-radius: 20px;
+     margin-bottom: 10px;
+ }
+
+ .searchbar input {
+     width: 300px;
+     padding: 5px;
+     border-radius: 10px;
+     height: 50px;
+     font-size: 17px;
+     background-color: rgb(196, 243, 245);
+     position: relative;
+     border: none;
+     outline: none;
+ }
+
+  .icon{
+    background-color: rgb(196, 243, 245);
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+  }
+
+ .weather {
+height: 330px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .humidity {
+     display: flex;
+     justify-content: space-around;
+     height: 170px;
+     align-items: center;
+
+ }
+
+ .infoo {
+     display: flex;
+ }
+
+ .ico {
+     width: 60px;
+     font-size: 50px;
+ }
+
+
