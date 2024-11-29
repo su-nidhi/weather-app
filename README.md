@@ -5,5 +5,5 @@
 
 # Technologies
 
-# # HTML, CSS, JavaScript
-# # OpenWeatherMap API
+## HTML, CSS, JavaScript
+## OpenWeatherMap API
